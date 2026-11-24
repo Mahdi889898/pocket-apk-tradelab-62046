@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">تریدلب</string>
+    <string name="app_subtitle">آزمایشگاه ترید خودکار الگوریتمی</string>
+    <string name="paper_mode_badge">حالت شبیه‌ساز • سرمایه مجازی (بدون پول واقعی)</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">ربات زنده</string>
+    <string name="nav_strategies">استراتژی‌ها</string>
+    <string name="nav_backtest">بک‌تست</string>
+    <string name="nav_history">تاریخچه</string>
+
+    <!-- Dashboard -->
+    <string name="virtual_equity">دارایی کل مجازی</string>
+    <string name="available_cash">موجودی نقد</string>
+    <string name="total_pnl">سود و زیان کل</string>
+    <string name="win_rate">نرخ برد</string>
+    <string name="profit_factor">ضریب سود</string>
+    <string name="max_drawdown">حداکثر افت</string>
+    <string name="bot_start">شروع ربات خودکار</string>
+    <string name="bot_pause">توقف ربات</string>
+    <string name="bot_running">ربات در حال اجرا</string>
+    <string name="bot_paused">ربات متوقف</string>
+    <string name="bot_halted_drawdown">توقف اضطراری (محافظ افت سرمایه)</string>
+    <string name="speed_label">سرعت شبیه‌سازی</string>
+    <string name="reset_portfolio">بازنشانی سرمایه</string>
+    <string name="open_position_title">پوزیشن باز فعلی</string>
+    <string name="no_open_position">در انتظار سیگنال الگوریتمی…</string>
+    <string name="no_open_position_hint">ربات به صورت مداوم اندیکاتورها را تحلیل می‌کند و در نقطه بهینه وارد معامله می‌شود.</string>
+    <string name="entry_price">قیمت ورود</string>
+    <string name="current_price">قیمت لحظه‌ای</string>
+    <string name="position_size">حجم پوزیشن</string>
+    <string name="unrealized_pnl">سود/زیان شناور</string>
+    <string name="stop_loss_short">حد ضرر</string>
+    <string name="take_profit_short">حد سود</string>
+    <string name="close_position_now">بستن دستی پوزیشن</string>
+    <string name="risk_guard_active">محافظ ریسک فعال</string>
+    <string name="risk_guard_desc">کنترل خودکار حد ضرر، حد سود و قطع‌کننده افت سرمایه</string>
+    <string name="rsi_label">شاخص RSI (14)</string>
+    <string name="ema_fast_label">EMA سریع</string>
+    <string name="ema_slow_label">EMA کند</string>
+    <string name="bollinger_label">باند بولینگر</string>
+    <string name="last_signal">آخرین سیگنال</string>
+    <string name="toggle_theme_desc">تغییر تم روشن و تاریک</string>
+    <string name="hero_banner_desc">تصویر پس‌زمینه موج‌های تحلیل الگوریتمی</string>
+
+    <!-- Strategies -->
+    <string name="strategies_title">استودیو استراتژی و مدیریت ریسک</string>
+    <string name="strategies_subtitle">پارامترهای فنی و قوانین مدیریت سرمایه ربات را تنظیم کنید</string>
+    <string name="active_badge">فعال</string>
+    <string name="select_strategy">فعال‌سازی این استراتژی</string>
+    <string name="risk_params_title">تنظیمات مدیریت ریسک</string>
+    <string name="stop_loss_percent">حد ضرر (Stop-Loss)</string>
+    <string name="take_profit_percent">حد سود (Take-Profit)</string>
+    <string name="allocation_percent">سهم سرمایه در هر معامله</string>
+    <string name="max_drawdown_limit">سقف افت سرمایه (قطع‌کننده خودکار)</string>
+    <string name="indicator_params_title">پارامترهای اندیکاتور</string>
+    <string name="ema_fast_period">دوره EMA سریع</string>
+    <string name="ema_slow_period">دوره EMA کند</string>
+    <string name="rsi_oversold">سطح اشباع فروش RSI</string>
+    <string name="rsi_overbought">سطح اشباع خرید RSI</string>
+    <string name="save_settings">ذخیره و اعمال به ربات</string>
+    <string name="settings_saved">تنظیمات استراتژی ذخیره شد</string>
+
+    <!-- Backtest -->
+    <string name="backtest_title">آزمایشگاه بک‌تست سریع</string>
+    <string name="backtest_subtitle">عملکرد استراتژی را در شرایط مختلف بازار شبیه‌سازی کنید</string>
+    <string name="select_instrument">انتخاب شاخص مجازی</string>
+    <string name="select_regime">سناریوی بازار</string>
+    <string name="candle_count">تعداد کندل‌ها</string>
+    <string name="run_backtest">اجرای بک‌تست</string>
+    <string name="apply_to_live">اعمال به ربات زنده</string>
+    <string name="equity_curve_title">نمودار رشد سرمایه (ربات در برابر نگهداری)</string>
+    <string name="legend_bot">منحنی ربات</string>
+    <string name="legend_benchmark">نگهداری ساده</string>
+    <string name="metric_net_return">بازده خالص</string>
+    <string name="metric_total_trades">تعداد معاملات</string>
+    <string name="metric_sharpe">نسبت شارپ</string>
+    <string name="metric_best_trade">بهترین معامله</string>
+    <string name="metric_worst_trade">بدترین معامله</string>
+    <string name="backtest_empty_hint">تنظیمات دلخواه را انتخاب کرده و دکمه «اجرای بک‌تست» را بزنید تا عملکرد الگوریتم روی داده‌های شبیه‌سازی‌شده محاسبه شود.</string>
+
+    <!-- History -->
+    <string name="history_title">دفتر ثبت معاملات خودکار</string>
+    <string name="filter_all">همه</string>
+    <string name="filter_wins">سودده</string>
+    <string name="filter_losses">ضررده</string>
+    <string name="clear_history">پاک‌سازی</string>
+    <string name="empty_history_title">هنوز معامله‌ای ثبت نشده است</string>
+    <string name="empty_history_subtitle">ربات را از تب «ربات زنده» روشن کنید تا با شناسایی سیگنال‌ها، معاملات خودکار در اینجا ثبت شوند.</string>
+    <string name="disclaimer_title">نکته شفافیت و مدیریت ریسک</string>
+    <string name="disclaimer_body">تریدلب یک محیط شبیه‌سازی آموزشی با سرمایه مجازی است و به هیچ صرافی یا حساب واقعی متصل نمی‌شود. در بازارهای مالی واقعی هیچ الگوریتمی بدون خطا یا دارای سود تضمین‌شده وجود ندارد؛ همیشه استراتژی‌ها را پیش از هر تصمیمی در محیط آزمایشی بسنجید.</string>
+</resources>

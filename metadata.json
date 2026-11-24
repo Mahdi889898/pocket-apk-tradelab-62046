@@ -1,0 +1,6 @@
+{
+  "name": "تریدلب",
+  "description": "شبیه‌ساز ترید خودکار الگوریتمی و بک‌تست استراتژی با سرمایه مجازی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
